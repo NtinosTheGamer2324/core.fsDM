@@ -7,9 +7,6 @@ int main() {
 render_setbackimg(flex_fat("./bg.png"));
 flex_setmode("GUI");
 
-cpp
-Copy
-Edit
 // Get users list
 char** users = to_array(flex_getallusers());
 
